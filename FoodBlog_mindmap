@@ -1,0 +1,41 @@
+
+* Header
+	-logo (image)
+* Footer
+	-disclaimer (long text)
+* NavBar
+	- Home (nav item)
+	- Recepies (nav item)
+	- Blogs (nav item)
+	- About (nav item)
+* Recepies
+	- name (short text)
+	- slug (short text)
+	- ingredients (list)
+	- description (short text)
+	- heroImage (image)
+	- author (reference,many)
+	- category (reference,many)
+* BlogPost
+	- heading (Short Text)
+	- slug (Short Text)
+	- heroImage (image)
+	- category (Reference, Many)
+	- description (long text)
+	- author (reference)
+* Author
+	- name (short text)
+	- localtion (short text)
+* Category
+	-name (short text)
+	-slug (short text)
+* About
+	-description (long text)
+
+
+
+
+
+
+	
+
