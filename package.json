@@ -17,10 +17,12 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"./node_modules/.bin/tailwind build ./src/css/styles.css [-c ./src/css/tailwind.js] [-o ./src/css/output.css]"
   },
   "devDependencies": {
-    "prettier": "^1.13.7"
+    "prettier": "^1.13.7",
+    "tailwindcss": "^0.6.5"
   },
   "repository": {
     "type": "git",
