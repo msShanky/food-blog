@@ -7,6 +7,7 @@
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-react-helmet": "^2.0.11",
+    "postcss": "^7.0.2",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
@@ -18,7 +19,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css":"./node_modules/.bin/tailwind build ./src/css/styles.css [-c ./src/css/tailwind.js] [-o ./src/css/output.css]"
+    "build:css": "postcss src/css/tailwind.css -o src/css/index.css"
   },
   "devDependencies": {
     "prettier": "^1.13.7",
